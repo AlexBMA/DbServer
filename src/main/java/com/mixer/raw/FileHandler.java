@@ -37,8 +37,8 @@ public class FileHandler {
             currentPos += recordLength;
         }
 
-        System.out.println("Total row number in Database "+rowNum);
-        System.out.println("Total deleted row number in Database "+deletedRows);
+        System.out.println("After startup: Total row number in Database "+rowNum);
+        System.out.println("After startup: Total deleted row number in Database "+deletedRows);
 
     }
 
